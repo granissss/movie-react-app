@@ -18,7 +18,6 @@ const Home = () => {
   }
 
   async function fetchMovies() {
-    setLoading(true);
     const { data } = await axios.get(
       `http://www.omdbapi.com/?apikey=${apikey}&s=${(searchValue || localStorage.getItem("value"))}}`
     );
