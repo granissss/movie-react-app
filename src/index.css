@@ -371,12 +371,12 @@ footer {
     width: 85%;
     padding: 12px;
   }
-
+  .search__result--top {
+    margin-left: 114px;
+  }
   .details__container {
-    width: 100%;
-    max-width: 1000px;
     display: block;
-    margin: 128px auto;
+    margin: 14px auto;
   }
 
 }
