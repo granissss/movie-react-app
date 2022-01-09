@@ -19,8 +19,9 @@ const Home = () => {
 
   async function fetchMovies() {
     const { data } = await axios.get(
-      `http://www.omdbapi.com/?apikey=${apikey}&s=${(searchValue || localStorage.getItem("value"))}}`
+      `https://www.omdbapi.com/?apikey=${apikey}&s=${(searchValue || localStorage.getItem("value"))}}`
     );
+    setLoading(true);
     setMoviesResults(data.Search);
     setTimeout(() => {
       setLoading(false);
