@@ -11,7 +11,7 @@ const Nav = () => {
                 </span></Link>
                 <ul className="nav__links">
                     <li className="nav__link" onClick={() => localStorage.setItem("value", '')}><Link to="/">Home</Link></li>
-                    <li className="nav__link"><Link to="/">Find your movie</Link></li>
+                    <li className="nav__link find__link"><Link to="/">Find your movie</Link></li>
                     <li className="nav__link no-cursor" onClick={() => alert(`Haven't got around to doing this :(`)}><Link to="">Contact</Link></li>
                 </ul>
             </div>

@@ -316,3 +316,67 @@ footer {
   margin: 58px auto;
   text-align: center;
 }
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+@media (max-width: 768px) {
+
+  .details__poster {
+    width: 256px;
+    border-radius: 16px;
+    filter: drop-shadow(0 0 0.75rem grey);
+    margin-top: 156px;
+    margin-left: 64px;
+  }
+
+  .details__description {
+    display: block;
+    font-size: 16px;
+    margin-left: 76px;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+  }
+  
+}
+
+/* SMALL PHONES, LARGE SMARTPHONES */
+@media (max-width: 550px) {
+  .nav-row {
+      width: 50%;
+  }
+
+  .header__title {
+    font-size: 28px;
+  }
+
+  .search__bar {
+    width: 320px;
+  }
+
+  .find__link {
+    display: none;
+  }
+
+  .search__result {
+    display: block;
+    margin-top: -24px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px; 
+  }
+  
+  .movie {  
+    width: 85%;
+    padding: 12px;
+  }
+
+  .details__container {
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    margin: 128px auto;
+  }
+
+}
