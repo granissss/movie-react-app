@@ -425,4 +425,9 @@ footer {
     margin-right: 18px;
   }
 
+  .movies__loading {
+      max-height: 100vh;
+      margin-left: -62px;
+  }
+
 }
